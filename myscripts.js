@@ -27,7 +27,7 @@ function record(count,dice_num){
 function reset(){
   count=1;
   html="<tr><th>Iteration</th><th>Result</th></tr>";
-  document.getElementById("demo").innerHTML = "You rolled a " + dice_num;
+  document.getElementById("demo").innerHTML = "";
   document.getElementById("tableresult").innerHTML = html;
 }
 
